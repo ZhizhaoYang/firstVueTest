@@ -9,12 +9,12 @@
     </div>
     <div class="row second">
       <select v-model="name">
-        <option>Carne Asada</option>
-        <option>Pollo</option>
-        <option>Bean</option>
-        <option>Al Pastor</option>
+        <option>Cat</option>
+        <option>Dog</option>
+        <option>Monkey</option>
+        <option>Mouse</option>
       </select>
-      <p v-if="name">My favorite kind of taco is {{ name }}</p>
+      <p v-if="name">My favorite kind of animal is {{ name }}</p>
     </div>
   </div>
 </template>
